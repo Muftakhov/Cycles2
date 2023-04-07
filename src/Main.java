@@ -14,61 +14,61 @@ public class Main {
     }
     public static void task1 (){
         System.out.println("Задача 1");
-        int savings = 15000;
-        int q = 0;
-        int i = 0;
-        while (q <= 2459000) {
-            q = q + savings;
-            i = i+1;
-        System.out.println("Месяц "+ i + " , сумма накоплений равна " + q+ " рублей" );}
+        int savingsMoney = 15000;
+        int rubles = 0;
+        int month = 0;
+        while (rubles <= 2459000) {
+            rubles = rubles + savingsMoney;
+            month = month +1;
+        System.out.println("Месяц "+ month + " , сумма накоплений равна " + rubles+ " рублей" );}
     }
     public static void task2 (){
         System.out.println("Задача 2");
-        int i = 0;
-        while (i < 10){
-            i = i + 1;
-        System.out.print(" "+i);}
+        int number = 0;
+        while (number < 10){
+            number = number + 1;
+        System.out.print(" "+number);}
         System.out.println();
-        for (;i > 0;i = i - 1) {
-        System.out.print (" "+i );}
+        for (;number > 0;number = number - 1) {
+        System.out.print (" "+number );}
     }
     public static void task3 (){
         System.out.println("Задача 3");
-        int t = 17;
-        int q = 8;
-        int y = 12_000_000;
-        int i = 0;
-        while (i < 10){
-            i = i + 1;
-            y = y + t - q;
-            System.out.println("Год "+i+ " численность населения составляет " + y);}
+        int birthRate = 17;
+        int mortality = 8;
+        int size = 12_000_000;
+        int year = 0;
+        while (year < 10){
+            year = year + 1;
+            size = size + birthRate - mortality;
+            System.out.println("Год "+year+ " численность населения составляет " + size);}
 
 
     }
     public static void task4 (){
         System.out.println("Задача 4");
-        int i = 15000;
-        int q = 0;
-        while (i < 12_000_000){
-            q = ++q;
-            i = i + (i*7)/100;
-            System.out.println("месяцев "+q+ " сумма " + i);}
+        int InitialAmount= 15000;
+        int month = 0;
+        while (InitialAmount < 12_000_000){
+            month = ++month;
+            InitialAmount = InitialAmount + (InitialAmount * 7)/100;
+            System.out.println("месяцев "+month+ " сумма " + InitialAmount);}
 
 
     }
     public static void task5 (){
         System.out.println("Задача 5");
-        int i = 15000;
-        int q = 0;
-        while (i < 12_000_000){
-            q = q+6;
-            i = (i + (i*7)/100);
-            i = (i + (i*7)/100);
-            i = (i + (i*7)/100);
-            i = (i + (i*7)/100);
-            i = (i + (i*7)/100);
-            i = (i + (i*7)/100);
-            System.out.println("месяцев "+q+ " сумма " + i);}
+        int InitialAmount = 15000;
+        int savingAfter = 0;
+        while (InitialAmount < 12_000_000){
+            savingAfter = savingAfter + 6;
+            InitialAmount = (InitialAmount + (InitialAmount*7)/100);
+            InitialAmount = (InitialAmount + (InitialAmount*7)/100);
+            InitialAmount = (InitialAmount + (InitialAmount*7)/100);
+            InitialAmount = (InitialAmount + (InitialAmount*7)/100);
+            InitialAmount = (InitialAmount + (InitialAmount*7)/100);
+            InitialAmount = (InitialAmount + (InitialAmount*7)/100);
+            System.out.println("месяцев "+savingAfter+ " сумма " + InitialAmount);}
 
 
     }
@@ -88,20 +88,20 @@ public class Main {
     }
     public static void task7 (){
         System.out.println("Задача 7");
-        int q = 7;
-            for (; q < 31; q = q + 7)
-        System.out.println("Сегодня пятница,  "+q+ "-е число. Необходимо подготовить отчет ");
+        int friday = 7;
+            for (; friday < 31; friday = friday + 7)
+        System.out.println("Сегодня пятница,  "+friday+ "-е число. Необходимо подготовить отчет ");
 
     }
 
     public static void task8 (){
         System.out.println("Задача 8");
-        int i = 0;
-        int q = 1823;
-        int e = 2123;
-        for (; i < 2123; i = i + 79)
-        if (i > q && i < e)
-        {System.out.println(+i);}
+        int cometFliesBy = 0;
+        int untilTheCurrent2023 = 1823;
+        int afterTheCurrent2023= 2123;
+        for (; cometFliesBy < 2123; cometFliesBy = cometFliesBy + 79)
+        if (cometFliesBy > untilTheCurrent2023 && cometFliesBy < afterTheCurrent2023)
+        {System.out.println(+cometFliesBy);}
 
 
 
