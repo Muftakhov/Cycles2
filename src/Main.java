@@ -3,10 +3,8 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
 
-        task3();
-        task5();
+
         task6();
-        task8();
 
 
     }
@@ -67,7 +65,7 @@ public class Main {
         System.out.println("Задача 6");
         int InitialAmount = 15000;
         int month = 0;
-        while (InitialAmount < 12_000_000 && month < 72){
+        while (month <= 109){
             InitialAmount = InitialAmount + (InitialAmount*7)/100;{
             if (month % 6 == 0)
             System.out.println("месяцев "+month+ " сумма " + InitialAmount);}
